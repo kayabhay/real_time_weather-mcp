@@ -126,7 +126,7 @@ python main.py
 
 | Tool | Parameters | Description |
 | :--- | :--- | :--- |
-| `check_weather` | `location` (*string*) | Fetches real-time weather information for the specified city or region (e.g., `"Paris"`, `"New York"`, `"Tokyo"`). |
+| `check_weather` | `location` (*string*), `detailed` (*bool*, optional) | Fetches real-time weather information for a specified location. If `detailed=True`, returns temperature, feels-like temp, humidity, wind, and precipitation. |
 
 ---
 
